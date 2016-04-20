@@ -44,7 +44,6 @@
         android:inputType="phone"/>
     <Button
         android:id="@+id/btnRegister"
-        android:onClick="onClick"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Register"

@@ -20,7 +20,12 @@
                 <action android:name="artivisi.com.LoginActivity"></action>
                 <category android:name="android.intent.category.DEFAULT"></category>
             </intent-filter>
-
+        </activity>
+        <activity android:name=".DashboardActivity">
+            <intent-filter>
+                <action android:name="artivisi.com.DashboardActivity"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
         </activity>
     </application>
 </manifest>
