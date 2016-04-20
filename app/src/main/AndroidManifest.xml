@@ -15,6 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="artivisi.com.LoginActivity"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
 
+        </activity>
+    </application>
 </manifest>

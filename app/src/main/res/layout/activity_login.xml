@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/logo_pegadaian"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="60dp"
+        />
+    
+    <EditText
+        android:id="@+id/emailAddressLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/passwordLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="30dp"
+        />
+</LinearLayout>

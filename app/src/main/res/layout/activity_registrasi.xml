@@ -19,31 +19,32 @@
         android:layout_marginBottom="40dp"
         />
     <EditText
-        android:id="@+id/email_address"
+        android:id="@+id/emailAddressRegister"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:hint="Email"
         android:inputType="textEmailAddress" />
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/passwordRegister"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
         android:inputType="textPassword" />
     <EditText
-        android:id="@+id/retypePassword"
+        android:id="@+id/retypePasswordRegister"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:hint="Retype Password"
         android:inputType="textPassword" />
     <EditText
-        android:id="@+id/retypePassword"
+        android:id="@+id/phoneNumberRegister"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:hint="Phone Number"
         android:inputType="phone"/>
     <Button
         android:id="@+id/btnRegister"
+        android:onClick="onClick"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Register"
@@ -59,7 +60,6 @@
             android:text="Already register? "
             />
         <TextView
-            android:id="@+id/loginHere"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Login Here"
